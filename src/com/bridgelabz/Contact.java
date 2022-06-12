@@ -50,11 +50,14 @@ public class Contact {
 	public void setState(String state) {
 		this.state = state;
 	}
+	
 	@Override
 	public String toString() {
 		return "Contact [fname=" + fname + ", lname=" + lname + ", phonenumber=" + phonenumber + ", address=" + address
 				+ ", city=" + city + ", zip=" + zip + ", state=" + state + "]";
 	}
+	
+	
 	public void setAddress(AddressBook address2) {
 		// TODO Auto-generated method stub
 		
@@ -63,6 +66,7 @@ public class Contact {
 		// TODO Auto-generated method stub
 		return null;
 	}
+
 
 	
 	
